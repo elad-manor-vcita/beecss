@@ -198,7 +198,9 @@ body.bee--cs .dragging.new-module {
   }
 
 .widget-bar.widget-bar--cs .widgets-section .widgets-section__wrapper .button-link-type-container--cs .widget__label--cs,
-.widget-bar.widget-bar--cs .widgets-section .widgets-section__wrapper .button-link-type-container--cs .dropdown-custom--cs {
+.widget-bar.widget-bar--cs .widgets-section .widgets-section__wrapper .button-link-type-container--cs .dropdown-custom--cs,
+.widget-bar.widget-bar--cs .widgets-section .widgets-section__wrapper .button-link-type-container--cs .number-selector--cs.href-container--cs,
+.widget-bar.widget-bar--cs .widgets-section .widgets-section__wrapper .button-link-type-container--cs .href-container--cs .href-container__link--link-file {
   display: none;
 }
 
