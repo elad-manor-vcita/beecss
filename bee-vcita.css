@@ -535,3 +535,7 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
 .undo-redo--cs .undo-redo__history .history__step:hover:before {
   background: #0c315e;
 }
+
+.content-labels--cs .tox-editor-container:last-child .tox-toolbar:last-child {
+  background: yellow;
+}
