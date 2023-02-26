@@ -536,6 +536,6 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
   background: #0c315e;
 }
 
-.content-labels--cs .tox-editor-container .tox-toolbar-overlord:last-child .tox-toolbar:last-child {
+.content-labels--cs .tox-editor-container .tox-toolbar-overlord:last-child .tox-toolbar__group:last-child {
   background: yellow;
 }
