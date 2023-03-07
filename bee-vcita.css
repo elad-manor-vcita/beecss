@@ -552,6 +552,10 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
   left: 9px;
 }
 
+.page-stage .stagemode__buttonswrapper button.stagemode__button--active {
+  background-color: var(--primary) !important;
+}
+
 .widget-bar--cs .tabs__tablabel--cs[aria-selected="true"] {
   background-color: #ffffff;
   border-bottom: 1px solid #ffffff;
@@ -592,4 +596,47 @@ body.bee--cs .range-selector input[type=range]:focus::-ms-fill-upper {
 
 .widget-bar--cs .widget-bar__scroll-container--cs {
   background-color: #ffffff !important;
+}
+
+.row-labels--cs .row-content .module-box--empty .content-labels--cs .module-empty svg path {
+  fill: var(--primary);
+}
+
+.content-area-width-container--cs .widget .widget-BeeWidthSlider .rc-slider .rc-slider-track {
+  background-color: var(--primary) !important;
+}
+
+body.bee--cs .row-container.row-labels--cs:hover > .icon-move, .module-box.mouseover:hover .icon-move {
+  background: var(--primary-dark) !important;
+}
+
+body.bee--cs .row-container .row-label--cs {
+  background-color: var(--primary-dark) !important;
+}
+
+body.bee--cs .row-container.row-labels--cs.row-labels:hover .row-selector:after, .module-box.hover:after, .module-box.mouseover:hover:not(.grabbed):after,
+body.bee--cs .row-container-outer.selected .row-container.row-labels.row-labels--cs:hover .row-selector:after {
+  outline-color: var(--primary) !important;
+}
+
+body.bee--cs .module-box > .icon-move, body.bee--cs .module-box--selected.mouseover:hover > .icon-move, body.bee--cs .row-container > .icon-move, body.bee--cs .row-container-outer.selected .row-container.row-labels--cs > .icon-move {
+  background-color: var(--primary) !important;
+}
+
+.row-labels--cs .row-selector:after {
+  outline-color: var(--primary) !important;
+}
+
+.widget-bar--cs.sidebar--collapsible:hover .sidebar__collapse-handle,
+.widget-bar--cs.sidebar--collapsed .sidebar__collapse-handle {
+  background-color: var(--primary) !important;
+}
+
+.widgets-section__title--cs .column-manager--add {
+  color: var(--primary);
+}
+
+.widgets-section__title--cs .widget-bar-column.widget-bar-column--selected {
+  color: var(--primary) !important;
+  box-shadow: inset 0 0 0 2px var(--primary) !important;
 }
